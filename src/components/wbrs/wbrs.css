@@ -1,0 +1,50 @@
+.wbrs-wrop {
+  background-color: #fff;
+  border: #fff;
+  margin: 0 auto 20px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+  border-radius: 8px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.wbrs-wrop:hover {
+  box-shadow: 0 4px 8px 10px rgba(7, 17, 21, 0.1);
+}
+.wbrs-wrop .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.wbrs-wrop .list {
+  padding-top: 10px;
+}
+.wbrs-wrop .list .item {
+  background-color: #fff;
+  border: #fff;
+  margin: 0 auto 10px;
+  padding: 3px 10px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+  border-radius: 8px;
+}
+.wbrs-wrop .list .more {
+  text-align: center;
+  transition: all 0.3s;
+}
+.wbrs-wrop .list .more:hover {
+  background-color: #999;
+}
+.wbrs-wrop .list .more:hover a {
+  color: #fff;
+}
+.wbrs-wrop .list .more a {
+  color: skyblue;
+}
+.wbrs-wrop .name {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

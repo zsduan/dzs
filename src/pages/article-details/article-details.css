@@ -1,0 +1,55 @@
+.articl-wrop {
+  background-color: #fff;
+  border: #fff;
+  padding: 16px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.articl-wrop .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+}
+.articl-wrop .html-wrop {
+  padding-bottom: 20px;
+}
+.articl-wrop .reading-all {
+  display: flex;
+  color: #999;
+  font-size: 12px;
+  align-items: center;
+  padding: 20px 0;
+}
+.articl-wrop .reading-all .read {
+  padding-right: 10px;
+}
+.articl-wrop .reading-all .time {
+  padding-right: 10px;
+}
+.articl-wrop .reading-all .type {
+  background-color: #e0e0e0;
+  padding: 2px 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.articl-wrop .reading-all .type:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.articl-wrop .read-more {
+  text-align: center;
+  font-size: 14px;
+}
+.articl-wrop .read-more a {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: skyblue;
+}
+.articl-wrop .read-more a:hover {
+  background-color: #aaa;
+  color: #fff;
+}

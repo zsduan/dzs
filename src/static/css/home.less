@@ -1,0 +1,47 @@
+.none {
+    display: none;
+}
+  
+.block {
+    display: block;
+}
+.page{
+    background-color: #F8F9FB;
+
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position : relative;
+    .left{
+        width: 79%;
+    }
+    .right{
+        width: 20%;
+        .right-item{
+            width: 20%;
+        }
+    }
+
+    .right-position{
+        position: fixed;
+        width: 234px;
+    }
+}
+
+@media (max-width: 1200px){
+    .main{
+        width: 100%;
+        padding: .1rem;
+        margin-top: .3rem;
+        .left{
+            width: 100%;
+        }
+        .right{
+            .none();
+        }
+    }
+}

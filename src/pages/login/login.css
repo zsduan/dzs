@@ -1,0 +1,110 @@
+.not-select {
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  -ms-overflow-style: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+}
+.page-login {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #1eb4f1;
+  background: linear-gradient(196deg, #1eb4f1 0%, #87ceeb 100%);
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  -ms-overflow-style: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+}
+.page-login .login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+  width: 500px;
+}
+.page-login .login .tips {
+  font-size: 12px;
+  color: #69A0FF;
+  margin: 10px 0;
+  text-align: right;
+}
+.page-login .login .btn {
+  margin: 0 auto;
+  display: block;
+  width: 30%;
+}
+.page-login .login .title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.page-login .login .ipt-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.page-login .login .ipt-box label {
+  width: 70px;
+  text-align: justify;
+  text-align-last: justify;
+  margin-right: 5px;
+  position: relative;
+}
+.page-login .login .ipt-box .important {
+  color: red;
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+.page-login .login .ipt-box .canvas {
+  margin-left: 10px;
+}
+.page-login .login .code {
+  width: 305px;
+}
+@media (max-width: 1200px) {
+  .page-login .login {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .page-login .login .ipt-box {
+    display: block;
+    position: relative;
+    margin-top: 0.1rem;
+  }
+  .page-login .login .ipt-box label {
+    display: block;
+    text-align-last: initial;
+    width: 100%;
+  }
+  .page-login .login .ipt-box .code {
+    width: 55%;
+  }
+  .page-login .login .ipt-box .canvas {
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+  .page-login .btn-box .btn {
+    width: 100%;
+  }
+}

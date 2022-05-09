@@ -1,0 +1,63 @@
+.user-wrop {
+  background-color: #fff;
+  border: #fff;
+  margin: 0 auto 20px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.user-wrop:hover {
+  box-shadow: 0 4px 8px 10px rgba(7, 17, 21, 0.1);
+}
+.user-wrop .icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+}
+.user-wrop .icon img {
+  width: 100%;
+}
+.user-wrop .user-name {
+  padding-top: 10px;
+  text-align: center;
+}
+.user-wrop .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-wrop .contact .item {
+  width: 25px;
+  height: 25px;
+  margin: 10px 5px;
+  position: relative;
+}
+.user-wrop .contact .item img {
+  width: 100%;
+}
+.user-wrop .contact .show-wrop:hover .show-tips {
+  display: block;
+}
+.user-wrop .contact .show-tips {
+  background-color: #fff;
+  border: #fff;
+  padding: 8px;
+  box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+  position: absolute;
+  border-radius: 8px;
+  top: 34px;
+  left: 10px;
+  transition: all 0.3s;
+  display: none;
+}
+.user-wrop .contact .show-tips img {
+  width: 100px;
+  height: 100px;
+}
+.user-wrop .contact .address {
+  left: -80px;
+}

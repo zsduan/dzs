@@ -1,0 +1,111 @@
+.not-select{
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+      
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    -ms-overflow-style: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
+
+.page-login{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(30,180,241);
+    background: linear-gradient(196deg, rgba(30,180,241,1) 0%, rgba(135,206,235,1) 100%);
+    .not-select();
+
+    .login{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #fff;
+        border-radius: 3px;
+        padding: 20px 30px;
+        box-shadow: 0 4px 8px 6px rgba(7, 17, 21, 0.06);
+        width: 500px;
+        .tips{
+            font-size: 12px;
+            color: #69A0FF;
+            margin: 10px 0;
+            text-align: right;
+        }
+        .btn{
+            margin: 0 auto;
+            display: block;
+            width: 30%;
+        }
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .ipt-box{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            label{
+                width: 70px;
+                text-align: justify;
+                text-align-last: justify;
+                margin-right: 5px;
+                position: relative;
+            }
+            .important{
+                color: red;
+                position: absolute;
+                top: 0;
+                left: -10px;
+            }
+            .canvas{
+                margin-left: 10px;
+            }
+        }
+        .code{
+            width: 305px;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .page-login{
+        // background: #fff;
+        .login{
+            width: 80%;
+            margin: 0 auto;
+            .ipt-box{
+                display: block;
+                position: relative;
+                margin-top: .1rem;
+                label{
+                    display: block;
+                    text-align-last: initial;
+                    width: 100%;
+                }
+                .code{
+                    width: 55%;
+                }
+                .canvas{
+                    position: absolute;
+                    right: 0;
+                    top: 30%;
+                }
+            }
+        }
+        .btn-box{
+            .btn{
+                width: 100%;
+            }
+        }
+    }
+}
+

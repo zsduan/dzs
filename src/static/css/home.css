@@ -1,0 +1,43 @@
+.none {
+  display: none;
+}
+.block {
+  display: block;
+}
+.page {
+  background-color: #F8F9FB;
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.main .left {
+  width: 79%;
+}
+.main .right {
+  width: 20%;
+}
+.main .right .right-item {
+  width: 20%;
+}
+.main .right-position {
+  position: fixed;
+  width: 234px;
+}
+@media (max-width: 1200px) {
+  .main {
+    width: 100%;
+    padding: 0.1rem;
+    margin-top: 0.3rem;
+  }
+  .main .left {
+    width: 100%;
+  }
+  .main .right {
+    display: none;
+  }
+}

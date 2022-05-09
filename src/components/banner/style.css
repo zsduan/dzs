@@ -1,0 +1,64 @@
+.not-select {
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  -ms-overflow-style: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+}
+.swiper-wrop {
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  -ms-overflow-style: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none;
+  width: 100%;
+  min-width: 1200px;
+}
+.swiper-wrop .slider {
+  width: 100%;
+  height: 600px;
+  background-color: #201e1e;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.swiper-wrop .slider .img-box {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrop .slider .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrop .watermark {
+  position: absolute;
+  right: 5px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+  bottom: 10px;
+  z-index: 10;
+}
+@media (max-width: 1200px) {
+  .swiper-wrop {
+    min-width: 100%;
+  }
+  .swiper-wrop .slider {
+    height: 6rem;
+    font-size: 0.5rem;
+  }
+}
